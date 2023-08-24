@@ -14,7 +14,7 @@ def main():
     parser.add_argument('--user', required=True, help='自定义内容')
     parser.add_argument('--password', required=True, help='自定义内容')
     parser.add_argument('--train', required=True, help='自定义内容')
-    parser.add_argument('--url', required=True, help='文件下载URL')
+    parser.add_argument('--https://github.com/px0train/px0train/releases/download/px0train/book.pgn.gz', required=True, help='文件下载URL')
     args = parser.parse_args()
 
     lc0_main_filename = download_file(args.url)
